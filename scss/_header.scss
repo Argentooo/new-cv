@@ -1,0 +1,31 @@
+@import "vars";
+
+.header {
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__logo {
+    width: 200px;
+  }
+  &__menu {
+    margin: 0;
+    display: flex;
+    list-style: none;
+    padding: 0;
+  }
+  &__menu-link {
+    text-decoration: none;
+    font-family: $main-font;
+    font-weight: 700;
+    color: #000;
+    padding: 15px;
+    font-size: 19px;
+    transition: 0.4s;
+    &:hover {
+      background-color: rgba($color: #b23ac6, $alpha: 0.2);
+      border-bottom: 1px solid black;
+    }
+  }
+}
