@@ -60,12 +60,14 @@ body {
 }
 
 .header__menu-link:hover {
-  background-color: rgba(178, 58, 198, 0.2);
+  background-color: rgba(0, 86, 126, 0.3);
   border-bottom: 1px solid black;
 }
 
 .about {
-  background-image: url(../images/fon.png);
+  background-color: #00567e;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .about__inner {
@@ -107,4 +109,56 @@ body {
   line-height: 27px;
   margin: 0;
   padding: 0 60px 0 0;
+}
+
+.contacts {
+  margin-top: 120px;
+}
+
+.contacts__title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  line-height: 60px;
+}
+
+.contacts__menu {
+  padding: 50px 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+}
+
+.contacts__item + .contacts__item {
+  margin-left: 35px;
+}
+
+.contacts__title1 {
+  margin: 0;
+  text-align: center;
+  padding-bottom: 50px;
+  font-size: 24px;
+}
+
+.contacts__link {
+  color: white;
+  text-decoration: none;
+  background-color: #00567e;
+  padding: 15px;
+  border-radius: 5px;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.contacts__link:hover {
+  background-color: rgba(0, 86, 126, 0.7);
 }

@@ -1,7 +1,9 @@
 @import "vars";
 
 .about {
-  background-image: url(../images/fon.png);
+  background-color: rgb(0, 86, 126);
+  background-size: cover;
+  background-repeat: no-repeat;
   &__inner {
     display: grid;
     grid-template-columns: 1fr 1fr;
