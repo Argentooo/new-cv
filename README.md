@@ -1,3 +1,3 @@
 # new-cv
 
-https://argentooo.github.io/new-cv/
+https://argensaip.github.io/new-cv/
